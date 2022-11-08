@@ -1,0 +1,113 @@
+commit b9bb06ba363b2db6e6e8edfcb2427c7f151da830 
+Author: Ville Ruuskanen <ruusvil@gmail.com> 
+Date:   Tue Nov 8 22:30:21 2022 +0200 
+
+   did stuff 
+
+tiedostoja/file2             | 0 
+tiedostoja/{file1 => file22} | 0 
+2 files changed, 0 insertions(+), 0 deletions(-) 
+
+commit d2eee2fd6e4f66bc2363e227b475fad650fad779 
+Author: Ville Ruuskanen <ruusvil@gmail.com> 
+Date:   Tue Nov 8 22:27:07 2022 +0200 
+
+   added new repo and files 
+
+tiedostoja/file1 | 0 
+tiedostoja/file2 | 0 
+tiedostoja/file3 | 0 
+3 files changed, 0 insertions(+), 0 deletions(-) 
+
+commit fa2758d6851d8589fea181877419b68e2e987f0c 
+Author: Ville Ruuskanen <ruusvil@gmail.com> 
+Date:   Tue Nov 8 22:24:20 2022 +0200 
+
+   muokattu käyttäen p flagia 
+
+eka.txt    | 1 + 
+kolmas.txt | 1 + 
+2 files changed, 2 insertions(+) 
+
+commit 2aaeab69b341e49a9d131a934a5b09471dee42af 
+Author: Ville Ruuskanen <ruusvil@gmail.com> 
+Date:   Tue Nov 8 15:57:41 2022 +0200 
+
+   renamed tiedosto.txt -> eka.txt 
+
+tiedosto.txt => eka.txt | 0 
+1 file changed, 0 insertions(+), 0 deletions(-) 
+
+commit 6c78b33c17c7687eacba014d991ad3178c4145a2 
+Author: Ville Ruuskanen <ruusvil@gmail.com> 
+Date:   Tue Nov 8 15:56:40 2022 +0200 
+
+   deleted toinen.txt 
+
+toinen.txt | 1 - 
+1 file changed, 1 deletion(-) 
+
+commit 84f8b55a7357f1b5f2b61d8b1bbe2028965d392d 
+Author: Ville Ruuskanen <ruusvil@gmail.com> 
+Date:   Tue Nov 8 15:54:18 2022 +0200 
+
+   edited tiedosto.txt 
+
+tiedosto.txt | 5 +++-- 
+1 file changed, 3 insertions(+), 2 deletions(-) 
+
+commit 3a279f94350b5d1db169ffb8a3bb291d36331132 
+Author: Ville Ruuskanen <ruusvil@gmail.com> 
+Date:   Tue Nov 8 15:51:19 2022 +0200 
+
+   pasted text to tiedosto.txt 
+
+tiedosto.txt | 4 ++++ 
+1 file changed, 4 insertions(+) 
+
+commit 7d6f82fc6a25a4a417e60b7415dfe3d8ef737074 
+Author: Ville Ruuskanen <ruusvil@gmail.com> 
+Date:   Tue Nov 8 15:39:58 2022 +0200 
+
+   added new repo with file 
+
+stuff/stuff.txt | 0 
+1 file changed, 0 insertions(+), 0 deletions(-) 
+
+commit bea1be7e80362769b42fa5f082390fc7cbd030d5 
+Author: Ville Ruuskanen <ruusvil@gmail.com> 
+Date:   Tue Nov 8 15:39:03 2022 +0200 
+
+   muokattu toinen ja kolmas 
+
+kolmas.txt | 1 + 
+toinen.txt | 1 + 
+2 files changed, 2 insertions(+) 
+
+commit 1b47076f73f41a1d0dd31d3d6d9c85f2e2f9f82f 
+Author: Ville Ruuskanen <ruusvil@gmail.com> 
+Date:   Tue Nov 8 15:37:58 2022 +0200 
+
+   lisätty kolmas.txt 
+
+kolmas.txt | 0 
+1 file changed, 0 insertions(+), 0 deletions(-) 
+
+commit 6726a3aa776253a0f660438d10ba719b23464c10 
+Author: Ville Ruuskanen <ruusvil@gmail.com> 
+Date:   Tue Nov 8 15:35:26 2022 +0200 
+
+   muutos ja lisäys 
+
+tiedosto.txt | 1 + 
+toinen.txt   | 0 
+2 files changed, 1 insertion(+) 
+
+commit 694efb6dcc7c0021aa10d5745911c49e6896af99 
+Author: Ville Ruuskanen <ruusvil@gmail.com> 
+Date:   Tue Nov 8 15:30:25 2022 +0200 
+
+   tiedosto.txt luotu 
+
+tiedosto.txt | 0 
+1 file changed, 0 insertions(+), 0 deletions(-)
