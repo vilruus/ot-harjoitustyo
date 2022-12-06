@@ -19,8 +19,8 @@ Sovelluksella on vain yksi käyttäjärooli, normaalikäyttäjä
 Harjoituksen tulee sisältää liikkeen nimi, sarjojen määrä, toistojen määrä sekä käytettävä vastus
 
 ## Perusversion tarjoamat toiminnallisuudet
-- Käyttäjä voi luoda käyttäjätunnuksen
-- Käyttäjä voi kirjautua järjestelmään
+- Käyttäjä voi luoda käyttäjätunnuksen "tehty"
+- Käyttäjä voi kirjautua järjestelmään "tehty"
 - Käyttäjä näkee omat harjoituksensa
 - Käyttäjä voi lisätä, muokata ja poistaa harjoituksiaan
 - Käyttäjä voi kirjautua ulos järjestelmästä
