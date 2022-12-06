@@ -13,7 +13,8 @@ class UserRepository:
         cursor = self._connection.cursor()
         cursor.execute("select * from users")
         rows = cursor.fetchall()
-        return rows
+        users = list(map(get_user_from_tuple, rows))
+        return users
 
     def find_by_username(self, username):
         cursor = self._connection.cursor()
@@ -28,6 +29,9 @@ class UserRepository:
         self._connection.commit()
         return user
 
+    def delete_all(self):
+        cursor = self._connection.cursor()
+        cursor.execute("DELETE FROM users")
+        self._connection.commit()
 
 user_repository = UserRepository(get_database_connection())
-users = user_repository.find_all()

@@ -4,7 +4,6 @@ from invoke import task
 def start(ctx):
     ctx.run("python3 src/index.py", pty=True)
 
-##TODO: Implement tests
 @task
 def test(ctx):
     ctx.run("pytest src", pty=True)
