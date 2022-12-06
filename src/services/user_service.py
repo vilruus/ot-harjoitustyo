@@ -18,7 +18,7 @@ class UserService:
         user = self._user_repository.find_by_username(username)
 
         #TODO: Error handling
-        if user.password != password:
+        if user.password == password:
             self._user = user
             return user
         
