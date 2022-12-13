@@ -1,3 +1,6 @@
+## Viikko6
+- Käyttäjä pystyy luomaan harjoituksen
+
 ## Viikko5
 - Käyttäjä pystyy luomaan käyttäjätunnuksen
 - Käyttäjä pystyy kirjautumaan järjestelmään luomallaan käyttäjätunnuksella
