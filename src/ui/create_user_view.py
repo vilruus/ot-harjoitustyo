@@ -1,5 +1,5 @@
 from tkinter import ttk
-from services.user_service import user_service
+from services.app_service import app_service
 
 class CreateUserView:
     def __init__(self, root, handle_show_login_view, handle_create_user):
@@ -21,7 +21,7 @@ class CreateUserView:
     def _handle_create_user_onClick(self):
         username = self._username_input.get()
         password = self._password_input.get()
-        user_service.create_user(username,password)
+        app_service.create_user(username,password)
         self._handle_create_user()
 
     def _initialize_username_field(self):

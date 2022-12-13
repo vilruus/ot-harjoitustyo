@@ -1,5 +1,5 @@
 from tkinter import ttk
-from services.user_service import user_service
+from services.app_service import app_service
 
 class LoginView:
     def __init__(self, root, handle_show_create_user_view, handle_login):
@@ -37,7 +37,7 @@ class LoginView:
     def _handle_login_onClick(self):
         username = self._username_entry.get()
         password = self._password_entry.get()
-        user_service.login(username, password)
+        app_service.login(username, password)
         self._handle_login()
     
     def _initialize(self):

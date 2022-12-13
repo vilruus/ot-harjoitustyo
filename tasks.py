@@ -2,6 +2,7 @@ from invoke import task
 
 @task
 def start(ctx):
+    ctx.run("python3 src/initialize_database.py", pty=True)
     ctx.run("python3 src/index.py", pty=True)
 
 @task
